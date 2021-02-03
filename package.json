@@ -4,7 +4,7 @@
   "description": "ゼロからreactを環境構築する方法です",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "webpack-dev-server --mode development --open",
     "webpack": "webpack -d"
   },
   "repository": {
