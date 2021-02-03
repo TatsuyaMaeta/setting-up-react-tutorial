@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
+    "dev": "webpack serve --config ./config/webpack.config.js",
     "webpack": "webpack -d"
   },
   "repository": {
